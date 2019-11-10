@@ -1,0 +1,7 @@
+.tenBisContainer input{
+    min-width: 160px;
+}
+
+.tenbis-ul {
+    padding-inline-start: 22px !important;
+}
