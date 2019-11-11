@@ -8,6 +8,7 @@ const dateToInputFormat = (date) => {
     let mounth = date.getMonth() + 1;
     if (mounth < 10) mounth = `0${mounth}`;
     let day = date.getMonth();
+    day++;
     if (day < 10) mounth = `0${day}`;
 
     return `${date.getFullYear()}-${mounth}-${day}`;
@@ -83,7 +84,8 @@ function App() {
                     <select onChange={onSelectSyncIntervals}>
                         {SYNC_INTERVALS.map(interval => <option key={`option-interval-${interval}`}
                                                                 value={interval}
-                                                                defaultValue={interval === syncIntervals}>{interval < 60 ? `${interval} minutes` : `${interval / 60} hours`}</option>)}
+                                                                selected={interval === syncIntervals ? "selected" : null}>
+                                                                {interval < 60 ? `${interval} minutes` : `${interval / 60} hours`}</option>)}
                     </select><br/>
                     Max routes to display: <input type="number" name="max-routes" min={"5"} max={"50"} value={maxRoutes}
                                                   onChange={onMaxRoutesChange}/><br/>
