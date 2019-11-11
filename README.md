@@ -2,9 +2,7 @@
 
 #### View Deployd App [HERE](https://work-tool-baaef.firebaseapp.com/ "HERE").
 
-------------
 ![App Screenshot:](https://github.com/livnoni/my-work-dashboard/blob/master/screenshots/livnoni_dashboard.png)
-------------
 
 ####  App info
 - View Israel trains times using un official API
