@@ -12,8 +12,8 @@
 - Responsiv App
 
 #### How it works?
-- using unoficial Israel REST API 
+- Using unoficial Israel REST API 
 <img width="200" alt="portfolio_view" src="https://github.com/livnoni/my-work-dashboard/blob/master/screenshots/israelrail.jpg">
 
-- using unofical Ten Bis REST API 
+- Using unofical Ten Bis REST API 
 <img width="200" alt="portfolio_view" src="https://github.com/livnoni/my-work-dashboard/blob/master/screenshots/tenbis.png">
