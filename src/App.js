@@ -7,8 +7,7 @@ import utils from "./components/utils/utils";
 const dateToInputFormat = (date) => {
     let mounth = date.getMonth() + 1;
     if (mounth < 10) mounth = `0${mounth}`;
-    let day = date.getMonth();
-    day++;
+    let day = date.getDate();
     if (day < 10) mounth = `0${day}`;
 
     return `${date.getFullYear()}-${mounth}-${day}`;
