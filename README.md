@@ -6,14 +6,14 @@
 
 ####  App info
 - View Israel trains times using un official API
-- Get notifivation and Souns alert before your train arrived
+- Get Notifications and Souns alert before your train arrived
 - Super light app - getging data fastiest
 - Show info on your Ten Bis (תן ביס) card
 - Responsiv App
 
 #### How it works?
-- Using unoficial Israel REST API 
+- Using unofficial Israel REST API 
 <img width="200" alt="portfolio_view" src="https://github.com/livnoni/my-work-dashboard/blob/master/screenshots/israelrail.jpg">
 
-- Using unofical Ten Bis REST API 
+- Using unofficial Ten Bis REST API 
 <img width="200" alt="portfolio_view" src="https://github.com/livnoni/my-work-dashboard/blob/master/screenshots/tenbis.png">
