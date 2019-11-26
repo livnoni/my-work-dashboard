@@ -9,8 +9,8 @@ function TenBis(props) {
     const [tenBisData, setTenBisData] = useState({});
     const [hasError, setHasError] = useState(false);
     const [loading, setLoading] = useState(false);
-    const [username, setUsername] = useState("yehuda.livnoni@gmail.com");
-    const [password, setPassword] = useState("kingBibi2019");
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
 
 
     const getData = async () => {
